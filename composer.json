@@ -28,5 +28,15 @@
             "Spatie\\Payment\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spatie\\Payment\\PaymentServiceProvider"
+            ],
+            "aliases": {
+                "Payment": "Spatie\\Payment\\PaymentFacade"
+            }
+        }
+    }
 }
