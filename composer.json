@@ -32,10 +32,7 @@
         "laravel": {
             "providers": [
                 "Spatie\\Payment\\PaymentServiceProvider"
-            ],
-            "aliases": {
-                "Payment": "Spatie\\Payment\\PaymentFacade"
-            }
+            ]
         }
     },
     "minimum-stability": "stable"
